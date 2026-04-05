@@ -1,0 +1,43 @@
+# Configuración de GitHub Pages
+
+# Theme
+theme: null  # Sin tema predeterminado, usamos CSS personalizado
+
+# Metadata
+title: Era de la Educación Experimental
+description: Un viaje hacia la educación transformadora
+author: Tu Nombre
+
+# URL base (actualiza si el repositorio no está en la raíz del dominio)
+baseurl: ""
+url: ""
+
+# Configuración de Jekyll
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Excluir archivos
+exclude:
+  - .github
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Includes
+include:
+  - .htaccess
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+twitter:
+  username: "@tu_twitter"
+
+# Locale
+locale: es_ES
